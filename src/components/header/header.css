@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 26px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+.mobile-menu{
+    display: flex;
+}
+.web-menu{
+    display: none;
+}
+.name {
+    font-size: 18px;
+}
+}
