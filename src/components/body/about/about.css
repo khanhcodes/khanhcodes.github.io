@@ -24,10 +24,18 @@
 .info-name {
   font-size: 56px;
   font-weight: 600;
+  font-family: 'Fira Mono', 'Fira Sans', monospace;
+}
+
+.hello {
+  font-family: 'Fira Mono', 'Fira Sans', monospace;
+  font-weight: 500;
 }
 
 .statement {
   padding-top: 24px;
+  font-family: 'Fira Mono', 'Fira Sans', monospace;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 720px) {
@@ -49,6 +57,22 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    height: 350px;
+  }
+  .info-name {
+    font-size: 46px;
+    font-weight: 600;
+    font-family: 'Fira Mono', 'Fira Sans', monospace;
+  }
+}
+
 @media only screen and (max-width: 340px) {
     .about-top {
       flex-direction: column;
@@ -59,3 +83,22 @@
       height: 250px;
     }
   }
+
+  @media only screen and (max-width: 430px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture {
+    height: 350px;
+  }
+  .info-name {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Fira Mono', 'Fira Sans', monospace;
+  }
+}
+
+
+ 

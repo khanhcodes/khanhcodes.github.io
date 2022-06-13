@@ -1,10 +1,23 @@
-import React from 'react'
-import './social-contact.css'
+import React from "react";
+import "./social-contact.css";
+import { SocialData } from "../../../data/social.js"
+
 
 function SocialContact() {
+  const data = SocialData;
   return (
-    <div>SocialContact</div>
-  )
+    <div className="social-contact">
+      {data.map((item) => {
+        return (
+          <a href={item.link}>
+            <div className="social-icon-div">
+              <img src={item.icon} alt="icon" className="social-icon" />
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  );
 }
 
-export default SocialContact
+export default SocialContact;
