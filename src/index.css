@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Fira Sans', 'monospace', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito','Fira Sans', 'monospace', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,5 +8,5 @@ body {
 }
 
 code {
-  font-family: 'Fira Sans', 'monospace', source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  font-family: 'Nunito','Fira Sans', 'monospace', source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
 }

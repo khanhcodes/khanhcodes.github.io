@@ -1,0 +1,12 @@
+.about-detail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.section-title {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0px;
+}

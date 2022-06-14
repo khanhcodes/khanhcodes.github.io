@@ -1,10 +1,11 @@
 import React from "react";
 import "./body.css";
 import About from "./about/index.js";
-import Project from "./project/index.js";
+import Projects from "./projects/index.js";
 import Skills from "./skills/index.js";
 import Experience from "./experience/index.js";
 import Contact from "./contact/index.js";
+import AboutDetail from "./about-detail";
 
 function Body() {
   return (
@@ -12,8 +13,11 @@ function Body() {
       <section id="about">
         <About />
       </section>
+      <section id="about-detail">
+        <AboutDetail />
+      </section>
       <section id="project">
-        <Project />
+        <Projects />
       </section>
       <section id="skills">
         <Skills />
