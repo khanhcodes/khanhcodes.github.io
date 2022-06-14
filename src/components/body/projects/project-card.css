@@ -1,3 +1,8 @@
+.project-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .project-card-container {
     scroll-behavior: smooth;
     flex: 1;
@@ -10,8 +15,17 @@
     justify-content: space-between;
     align-items: center;
     margin: 16px 0px;
-    padding: 8px 0px;
+    padding: 15px 15px;
+    border: 4px solid purple;
+    border-radius: 20px;
 
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 40px 0 rgba(40, 39, 39, 0.4);
+    z-index: 3;
 }
 
 .project-title{
@@ -86,6 +100,7 @@
 }
 .project-card {
     flex-direction: column;
+    border: 5px solid rgb(130, 11, 11);
 }
 .project-info {
     margin-left: 0px;
