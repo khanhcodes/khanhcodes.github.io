@@ -18,13 +18,19 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 14px;
+}
+
+.education {
+  font-style: italic;
+  color: rgb(169, 91, 169);
 }
 
 .info-name {
-  font-size: 56px;
+  font-size: 54px;
   font-weight: 600;
   font-family: 'Fira Mono', 'Fira Sans', monospace;
+  color: rgba(85,26,139,255)
 }
 
 .hello {
@@ -38,11 +44,30 @@
   font-weight: 500;
 }
 
+@media only screen and (max-width: 1096px) {
+  .info-name {
+    font-size: 38px;
+  }
+}
+
+
 @media only screen and (max-width: 720px) {
   .about-top {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .info-name {
+    font-size: 34px;
+  }
+  .statement {
+    font-size: 18px;
+  }
+  .hello {
+    font-size: 18px;
+  }
+  .education {
+    font-size: 18px;
   }
 }
 
@@ -55,6 +80,7 @@
   .picture {
     height: 350px;
   }
+  
 }
 
 @media only screen and (max-width: 430px) {
@@ -67,13 +93,14 @@
     height: 350px;
   }
   .info-name {
-    font-size: 46px;
+    font-size: 34px;
     font-weight: 600;
     font-family: 'Fira Mono', 'Fira Sans', monospace;
+    color: rgba(85,26,139,255)
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 360px) {
     .about-top {
       flex-direction: column;
       justify-content: center;
@@ -84,21 +111,7 @@
     }
   }
 
-  @media only screen and (max-width: 430px) {
-  .about-top {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .picture {
-    height: 350px;
-  }
-  .info-name {
-    font-size: 40px;
-    font-weight: 600;
-    font-family: 'Fira Mono', 'Fira Sans', monospace;
-  }
-}
+
 
 
  

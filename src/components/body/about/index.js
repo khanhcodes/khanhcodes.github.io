@@ -9,14 +9,14 @@ function About() {
         <div className="about-info">
           <div className="hello">Hello there 👋, I'm</div>
           <div className="info-name">Kaitlyn Nguyen</div>
-          <div> CS + Math @ UGA </div>
+          <div className="education"> CS + Math @ UGA </div>
           <div className="statement"> I aspire to be a software/ML engineer 👩‍💻.</div>
         </div>
         <div className="about-photo">
           <img
             className="picture"
-            src="https://cdn.dribbble.com/users/2131993/screenshots/15628402/media/7bb0d27e44d8c2eff47276ae86bfd6a3.png?compress=1&resize=400x300&vertical=top"
-            alt="Girl coder"
+            src="https://thumbs.dreamstime.com/b/cat-programming-coding-hand-drawn-vector-illustration-cartoon-comic-style-cute-animal-domestic-profession-orange-glasses-178199065.jpg"
+            alt="girl coder"
           ></img>
         </div>
       </div>

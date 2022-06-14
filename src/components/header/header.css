@@ -7,7 +7,7 @@
     padding-bottom: 20px;
     position: relative;
     align-items: center;
-    background-color: rgb(214, 129, 136);
+    background-color: rgba(85,26,139,255)
 }
 
 .menu {
@@ -32,6 +32,11 @@
 .name {
     display: flex;
     font-size: 20px;
+    color: white;
+}
+
+a.name {
+    text-decoration: none;
     color: white;
 }
 
