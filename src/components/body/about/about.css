@@ -10,7 +10,8 @@
 }
 
 .picture {
-  height: 400px;
+  height: 320px;
+  padding: 10px;
 }
 
 .about-info {
@@ -78,7 +79,7 @@
     align-items: center;
   }
   .picture {
-    height: 350px;
+    height: 300px;
   }
   
 }
@@ -90,7 +91,7 @@
     align-items: center;
   }
   .picture {
-    height: 350px;
+    height: 300px;
   }
   .info-name {
     font-size: 34px;
