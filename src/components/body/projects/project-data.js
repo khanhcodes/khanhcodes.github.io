@@ -13,6 +13,7 @@ export const ProjectData = [
       "Numpy",
       "Pandas",
       "Bash",
+      "HPC Cluster"
     ],
     github: "https://github.com/khanhcodes/classification-ml-pipeline",
     image:
@@ -21,9 +22,9 @@ export const ProjectData = [
   {
     id: 2,
     title:
-      "Autoencoder and Neural Networks in Cell-type Classification (In progress)",
+      "Dimensionality reduction methods for cell-type classification model optimization (In progress)",
     about:
-      "A research on new autoencoder bulding and deep learning methods to improve the crop plant cell-type classification model from single-cell RNA-seq data.",
+      "A research on dimensionality reduction techniques using autoencoder neural networks and principal component analysis to improve the crop plant cell-type classification model from single-cell RNA-seq data.",
     tags: ["Python", "Tensorflow", "Keras"],
     github: "https://fontawesome.com/v5/docs/web/use-with/react",
     image:

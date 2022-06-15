@@ -3,14 +3,14 @@ import ProjectCard from "./project-card";
 import { ProjectData } from "./project-data";
 import "./projects.css";
 
-function Projects() { 
+function Projects() {
   const data = ProjectData;
   return (
     <div className="projects">
       <label className="section-title">Projects</label>
-      <div>
+      <div className="project-card-container">
         {data.map((project) => {
-            return <ProjectCard project={project} />;
+          return <ProjectCard project={project} />;
         })}
       </div>
     </div>

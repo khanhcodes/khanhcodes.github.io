@@ -19,6 +19,8 @@
 
 .menu-icon {
     font-size: 26px;
+    display: flex;
+    color: white;
 }
 
 .mobile-menu {
@@ -35,7 +37,7 @@
     color: white;
 }
 
-a.name {
+.name a {
     text-decoration: none;
     color: white;
 }
@@ -51,5 +53,6 @@ a.name {
     font-size: 18px;
     color: white;
 }
+
 }
 

@@ -1,5 +1,17 @@
-.projects {
+.project-card-container {
+    scroll-behavior: smooth;
     display: flex;
-    flex-direction: column;
-    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;    
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 830px) {
+    .project-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
 }

@@ -1,21 +1,17 @@
-.project-card-container {
-    scroll-behavior: smooth;
-    display: flex;
-    flex-direction: column;
-    min-height: 450px;
-    max-width: 80%;
-    align-items: center;
-}
-
 .project-card {
-    flex: 1;
+
     display: flex;
-    justify-content: space-between;
+    flex: 40%;
+    flex-direction: column;
+    max-width: 44%;
     align-items: center;
     margin: 16px 0px;
-    padding: 15px 15px;
+    padding: 30px 20px;
     border: 3px solid rgb(212, 194, 212);
     border-radius: 8px;
+    gap: 30px
+    
+    
 
 }
 
@@ -32,14 +28,11 @@
 }
 
 .project-photo {
-    width: 40%;
-    max-height: 80%;
-    max-width: 95%;
+    width: 100%;
 }
 
 .project-tags {
     display: flex;
-    max-width: 90%;
     flex-wrap: wrap;
     margin-bottom: 16px;
     margin-top: 16px;
@@ -93,17 +86,22 @@
     color: rgb(88, 38, 135);
 }
 
+@media only screen and (max-width: 830px) {
+    .project-card {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 @media only screen and (max-width: 720px) {
 .project-photo {
-    max-width: 70%;
+    width: 100%;
 }
 .project-card {
     flex-direction: column;
     border: 3px solid rgb(205, 182, 207);
 }
 .project-info {
-    margin-left: 0px;
-    margin-top: 12px;
+    gap: 20px;
 }
 .project-tags {
     max-width: 95%;
