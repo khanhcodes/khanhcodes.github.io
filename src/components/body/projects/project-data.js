@@ -17,7 +17,7 @@ export const ProjectData = [
     ],
     github: "https://github.com/khanhcodes/classification-ml-pipeline",
     image:
-      "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-018-35218-5/MediaObjects/41598_2018_35218_Fig1_HTML.png",
+      "https://www.researchgate.net/publication/323127831/figure/fig14/AS:731582331625472@1551434228280/Quality-control-plots-and-algorithm-to-identify-contaminant-cells-in-scRNA-seq-a.jpg",
   },
   {
     id: 2,

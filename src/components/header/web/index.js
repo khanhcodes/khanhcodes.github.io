@@ -10,11 +10,6 @@ function Web() {
         </a>
       </div>
       <div className="web-option">
-        <a href="#skill">
-            Skills
-        </a>
-      </div>
-      <div className="web-option">
         <a href="#experience">
             Experience
         </a>
