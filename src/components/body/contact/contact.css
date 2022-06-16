@@ -1,9 +1,51 @@
+:root {
+    --primary-color: #5d2591;
+  }
+  
 .contact {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
-p {
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
+
+.contact-left {
+    max-width: 60%;
+}
+.quote {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(129, 95, 152);
+}
+
+.download {
+    background-color: var(--primary-color);
+    padding: 10px 16px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.download a {
+    text-decoration: none;
+    color: white
+}
+
+.download-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+a.download-link:hover {
+    font-style: italic;
+  }
