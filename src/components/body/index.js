@@ -2,7 +2,7 @@ import React from "react";
 import "./body.css";
 import About from "./about/index.js";
 import Projects from "./projects/index.js";
-import Experience from "./experience/index.js";
+import TimeLine from "./experience/timeline.js";
 import Contact from "./contact/index.js";
 import AboutDetail from "./about-detail";
 
@@ -19,7 +19,7 @@ function Body() {
         <Projects />
       </section>
       <section id="experience">
-        <Experience />
+        <TimeLine />
       </section>
       <section id="contact">
         <Contact />

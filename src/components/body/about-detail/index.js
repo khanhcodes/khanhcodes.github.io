@@ -4,7 +4,7 @@ import "./about-detail.css";
 function AboutDetail() {
   return (
     <div className="about-detail">
-      <label className="section-title">About me </label>
+      <header className="section-title">About me </header>
       <p>
         I came from Ho Chi Minh, Vietnam, a bustling city with delicious
         cuisines. I'm currently a rising sophomore pursuing a double major in
