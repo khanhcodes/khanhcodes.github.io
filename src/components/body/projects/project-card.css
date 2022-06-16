@@ -1,113 +1,108 @@
 .project-card {
-
-    display: flex;
-    flex: 40%;
-    flex-direction: column;
-    max-width: 44%;
-    align-items: center;
-    margin: 16px 0px;
-    padding: 30px 20px;
-    border: 3px solid rgb(212, 194, 212);
-    border-radius: 8px;
-    gap: 30px
-    
-    
-
+  display: flex;
+  flex: 40%;
+  flex-direction: column;
+  max-width: 44%;
+  align-items: center;
+  margin: 16px 0px;
+  padding: 30px 20px;
+  border: 3px solid rgb(212, 194, 212);
+  border-radius: 8px;
+  gap: 30px;
 }
 
 .project-card:hover {
-    transform: scale(1.02);
-    transition: all 0.5s ease;
-    box-shadow: 0 10px 40px 0 rgba(40, 39, 39, 0.4);
-    z-index: 3;
+  transform: scale(1.02);
+  transition: all 0.5s ease;
+  box-shadow: 0 10px 40px 0 rgba(40, 39, 39, 0.4);
+  z-index: 3;
 }
 
-.project-title{
-    font-size: 24px;
-    font-weight: 600;
+.project-title {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .project-photo {
-    width: 100%;
+  width: 100%;
 }
 
 .project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-    margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .tag {
-    padding: 4px 8px;
-    background-color: rgb(125, 81, 125);
-    color: white;
-    border-radius: 8px;
-    margin-right: 8px;
-    margin-bottom: 4px;
-    font-size: 14px;
+  padding: 4px 8px;
+  background-color: rgb(125, 81, 125);
+  color: white;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  font-size: 14px;
 }
 
 .fi-brands-github {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .fi-rr-globe {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .project-links a {
-    text-decoration: none;
-    color: black;
+  color: black;
 }
 
 .project-links {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .link-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 0px;
-    font-size: 16px;
-    margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px;
+  font-size: 16px;
+  margin-right: 12px;
 }
 
 .link-button i {
-    display: flex;
-    align-items: center;
-    mask-repeat: 4px;
+  display: flex;
+  align-items: center;
+  mask-repeat: 4px;
 }
 
 .section-title {
-    font-size: 40px;
-    font-weight: 700;
-    color: rgb(88, 38, 135);
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(88, 38, 135);
 }
 
 @media only screen and (max-width: 830px) {
-    .project-card {
-        flex: 100%;
-        max-width: 100%;
-    }
+  .project-card {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 720px) {
-.project-photo {
+  .project-photo {
     width: 100%;
-}
-.project-card {
+  }
+  .project-card {
     flex-direction: column;
     border: 3px solid rgb(205, 182, 207);
-}
-.project-info {
+  }
+  .project-info {
     gap: 20px;
-}
-.project-tags {
+  }
+  .project-tags {
     max-width: 95%;
-}
-.project-info {
+  }
+  .project-info {
     max-width: 95%;
-}
+  }
 }

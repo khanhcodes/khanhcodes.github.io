@@ -10,7 +10,10 @@ function About() {
           <div className="hello">Hello there 👋, I'm</div>
           <div className="info-name">Kaitlyn Nguyen</div>
           <div className="education"> CS + Math @ UGA </div>
-          <div className="statement"> I aspire to be a software/ML engineer 👩‍💻.</div>
+          <div className="statement">
+            {" "}
+            I aspire to be a software/ML engineer 👩‍💻.
+          </div>
         </div>
         <div className="about-photo">
           <img

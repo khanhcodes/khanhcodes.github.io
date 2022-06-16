@@ -27,18 +27,18 @@
 .info-name {
   font-size: 54px;
   font-weight: 600;
-  font-family: 'Fira Mono', 'Fira Sans', monospace;
-  color: rgba(85,26,139,255)
+  font-family: "Fira Mono", "Fira Sans", monospace;
+  color: rgba(85, 26, 139, 255);
 }
 
 .hello {
-  font-family: 'Fira Mono', 'Fira Sans', monospace;
+  font-family: "Fira Mono", "Fira Sans", monospace;
   font-weight: 500;
 }
 
 .statement {
   padding-top: 24px;
-  font-family: 'Fira Mono', 'Fira Sans', monospace;
+  font-family: "Fira Mono", "Fira Sans", monospace;
   font-weight: 500;
 }
 
@@ -47,7 +47,6 @@
     font-size: 38px;
   }
 }
-
 
 @media only screen and (max-width: 720px) {
   .about-top {
@@ -78,7 +77,6 @@
   .picture {
     height: 300px;
   }
-  
 }
 
 @media only screen and (max-width: 430px) {
@@ -93,23 +91,18 @@
   .info-name {
     font-size: 34px;
     font-weight: 600;
-    font-family: 'Fira Mono', 'Fira Sans', monospace;
-    color: rgba(85,26,139,255)
+    font-family: "Fira Mono", "Fira Sans", monospace;
+    color: rgba(85, 26, 139, 255);
   }
 }
 
 @media only screen and (max-width: 360px) {
-    .about-top {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .picture {
-      height: 250px;
-    }
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
-
-
-
- 
+  .picture {
+    height: 250px;
+  }
+}

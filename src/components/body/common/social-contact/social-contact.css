@@ -1,29 +1,29 @@
 .social-contact {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .social-icon {
-    color: rgba(85,26,139,255)
+  color: rgba(85, 26, 139, 255);
 }
 
 a.social-icon {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-  }
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
 
 a.social-icon:hover {
   transform: translateY(-2px);
 }
 
 @media only screen and (max-width: 370px) {
-    .social-contact {
-        gap: 15px;
-    }
+  .social-contact {
+    gap: 15px;
+  }
 }

@@ -13,7 +13,7 @@ export const ProjectData = [
       "Numpy",
       "Pandas",
       "Bash",
-      "HPC Cluster"
+      "HPC Cluster",
     ],
     github: "https://github.com/khanhcodes/classification-ml-pipeline",
     image:
@@ -35,7 +35,17 @@ export const ProjectData = [
     title: "DawgExplore (UGAHacks 7)",
     about:
       "An event discovery web application for UGA students that displays real up-to-date events on campus.  Users can view a friendly interface of upcoming and past events, along with a set of features that allow them to more efficiently search for events based on their choice and bookmark their favorites!",
-    tags: ["React", "Node.js", "TypeScript", "HTML", "JSS", "Python", "Flask", "SQLAlchemy", "Figma"],
+    tags: [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "HTML",
+      "JSS",
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "Figma",
+    ],
     demo: "....",
     github: "https://fontawesome.com/v5/docs/web/use-with/react",
     image:
@@ -44,7 +54,8 @@ export const ProjectData = [
   {
     id: 4,
     title: "Alzheimer's Drug Discovery Using Machine Learning",
-    about: "A web application that allows you to predict the bioactivity of interested compounds towards inhibiting the Acetylcholinesterase enzyme from SMILES notation using ML algorithms. Acetylcholinesterase is a drug target for Alzheimer's disease, and the predicted data can have potential in discovering new drug candidates for Alzheimer's",
+    about:
+      "A web application that allows you to predict the bioactivity of interested compounds towards inhibiting the Acetylcholinesterase enzyme from SMILES notation using ML algorithms. Acetylcholinesterase is a drug target for Alzheimer's disease, and the predicted data can have potential in discovering new drug candidates for Alzheimer's",
     tags: ["Python", "Scikit-learn", "Pandas", "Numpy", "Streamlit"],
     demo: "https://bioact-prediction.herokuapp.com/",
     github: "https://github.com/khanhcodes/bioact-prediction",
@@ -55,7 +66,8 @@ export const ProjectData = [
   {
     id: 5,
     title: "Speech To Text",
-    about: "A full-stack web application that lets user transcribe audio files into text",
+    about:
+      "A full-stack web application that lets user transcribe audio files into text",
     tags: ["HTML", "CSS", "Jinja2", "Flask", "Python"],
     demo: "https://speech2text-flask.herokuapp.com/",
     github: "https://github.com/khanhcodes/speech-to-text",

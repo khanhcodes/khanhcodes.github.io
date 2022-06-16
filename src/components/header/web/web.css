@@ -1,18 +1,21 @@
 .web {
-    display: flex;
-    flex: 1;
-    align-items: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
 }
 
 .web-option {
-    font-size: 20px;
-    margin-right: 32px;
-    font-weight: 600;
+  font-size: 20px;
+  margin-right: 32px;
+  font-weight: 600;
 }
 
 .web-option a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+a.single-web-option:hover {
+  font-style: italic;
 }

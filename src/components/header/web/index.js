@@ -5,18 +5,18 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#project">
-            Projects
+        <a href="#project" className="single-web-option">
+          Projects
         </a>
       </div>
       <div className="web-option">
-        <a href="#experience">
-            Experience
+        <a href="#experience" className="single-web-option">
+          Experience
         </a>
       </div>
       <div className="web-option">
-        <a href="#contact">
-            Contact
+        <a href="#contact" className="single-web-option">
+          Contact
         </a>
       </div>
     </div>

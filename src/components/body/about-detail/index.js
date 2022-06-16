@@ -8,10 +8,11 @@ function AboutDetail() {
       <p>
         I came from Ho Chi Minh, Vietnam, a bustling city with delicious
         cuisines. I'm currently a rising sophomore pursuing a double major in
-        Computer Science and Mathematics with an emphasis on Artificial Intelligence at University of Georgia. My primary
-        topic of interest lies in machine learning, data analytics, computer
-        vision, bioinformatics, and website development. I'm passionate about
-        building impactful applications that can advance the healthcare field.
+        Computer Science and Mathematics with an emphasis on Artificial
+        Intelligence at University of Georgia. My primary topic of interest lies
+        in machine learning, data analytics, computer vision, bioinformatics,
+        and website development. I'm passionate about building impactful
+        applications that can advance the healthcare field.
       </p>
       <p>
         My other hobbies include experimenting with new UX/UI trends, singing,

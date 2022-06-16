@@ -1,13 +1,13 @@
 .about-detail {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
 }
 .section-title {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 p {
-    margin: 10px 0px;
-    line-height: 1.6;
+  margin: 10px 0px;
+  line-height: 1.6;
 }

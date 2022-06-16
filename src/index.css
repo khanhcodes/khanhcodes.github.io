@@ -1,12 +1,22 @@
 body {
   margin: 0;
-  font-family: 'Nunito','Fira Sans', 'monospace', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Nunito", "Fira Sans", "monospace", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Nunito','Fira Sans', 'monospace', source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  font-family: "Nunito", "Fira Sans", "monospace", source-code-pro, Menlo,
+    Monaco, Consolas, "Courier New";
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
