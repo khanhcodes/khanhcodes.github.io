@@ -1,51 +1,51 @@
 :root {
-    --primary-color: #5d2591;
-  }
-  
+  --primary-color: #5d2591;
+}
+
 .contact {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact-left {
-    max-width: 60%;
+  max-width: 60%;
 }
 .quote {
-    text-align: center;
-    font-size: 22px;
-    color: rgb(129, 95, 152);
+  text-align: center;
+  font-size: 22px;
+  color: rgb(129, 95, 152);
 }
 
 .download {
-    background-color: var(--primary-color);
-    padding: 10px 16px;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    border-radius: 4px;
+  background-color: var(--primary-color);
+  padding: 10px 16px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .download a {
-    text-decoration: none;
-    color: white
+  text-decoration: none;
+  color: white;
 }
 
 .download-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 a.download-link:hover {
-    font-style: italic;
-  }
+  font-style: italic;
+}

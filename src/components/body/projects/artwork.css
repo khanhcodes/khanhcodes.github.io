@@ -1,0 +1,45 @@
+/* .art-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.art-statement {
+    max-width: 50%;
+    font-size: 20px;
+    font-family: "Fira Mono", "Fira Sans", monospace;
+    font-weight: 500;
+    color: rgb(57, 57, 57);
+}
+
+
+.artwork-container img {
+  position: absolute;
+}
+
+.top,
+.bottom {
+    max-width: 300px;
+}
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+} */

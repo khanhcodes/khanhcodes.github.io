@@ -1,4 +1,3 @@
-import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
 import React from "react";
 import SocialContact from "../common/social-contact";
 import "./contact.css";
@@ -17,7 +16,8 @@ function Contact() {
         <div className="download">
           <a
             href="https://drive.google.com/uc?export=download&id=130Q85HsmCGcXMXQiw00mP5QQod_yGovi"
-            download className="download-link"
+            download
+            className="download-link"
           >
             <i class="fi fi-rr-download" />
             <div>Download resume</div>

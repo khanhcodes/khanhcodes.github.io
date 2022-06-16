@@ -7,8 +7,8 @@
   margin: 16px 0px;
   padding: 30px 20px;
   border: 3px solid rgb(212, 194, 212);
-  border-radius: 8px;
-  gap: 30px;
+  border-radius: 10px;
+  gap: 10px;
 }
 
 .project-card:hover {
@@ -25,6 +25,7 @@
 
 .project-photo {
   width: 100%;
+  max-height: 70%;
 }
 
 .project-tags {
@@ -65,9 +66,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 0px;
+  padding: 10px 0px;
   font-size: 16px;
-  margin-right: 12px;
+  margin-right: 20px;
 }
 
 .link-button i {
@@ -82,7 +83,7 @@
   color: rgb(88, 38, 135);
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 730px) {
   .project-card {
     flex: 100%;
     max-width: 100%;
